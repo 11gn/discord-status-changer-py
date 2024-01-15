@@ -21,7 +21,7 @@ async def change_status():
 
 @client.event
 async def on_ready():
-    print(f'We have logged in as {client.user}')
+    print(f'{FORE.GREEN} We have logged in as {client.user}')
     client.loop.create_task(change_status())
 
 startlogo = (f"""
