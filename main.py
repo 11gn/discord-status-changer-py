@@ -49,9 +49,8 @@ $$    $$/  $$  $$/ $$    $$ |  $$  $$/ $$    $$/ /     $$/       $$    $$/ $$ | 
              
              
              
-    """)
+    """) # if you know how to change this then go for it but it can stay if u dont know
 
-# code/message here can be changed to watever you would like.
 
 print(Colorate.Horizontal(Colors.blue_to_purple, startlogo))
 
